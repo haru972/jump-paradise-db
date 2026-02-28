@@ -1,5 +1,7 @@
 [
   {
+    "id": "jp-001",
+    "series": "ジャンプパラダイス",
     "vol": 1,
     "release": "200X年",
     "image": "images/vol1.jpg",
@@ -8,11 +10,23 @@
     "notes": "制服姿あり"
   },
   {
+    "id": "jp-002",
+    "series": "ジャンプパラダイス",
     "vol": 2,
     "release": "200X年",
     "image": "images/vol2.jpg",
     "cover": "キャラ名",
     "features": ["特集C"],
+    "notes": ""
+  },
+  {
+    "id": "js-001",
+    "series": "ジャンコミScoop!!",
+    "vol": 1,
+    "release": "20XX年",
+    "image": "images/vol3.jpg",
+    "cover": "キャラ名",
+    "features": ["新シリーズ特集"],
     "notes": ""
   }
 ]
