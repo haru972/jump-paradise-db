@@ -2,16 +2,16 @@
   {
     "vol": 1,
     "release": "200X年",
-    "image": "images/vol1.jpg"
+    "image": "images/vol01.jpg"
   },
   {
     "vol": 2,
     "release": "200X年",
-    "image": "images/vol2.jpg"
+    "image": "images/vol02.jpg"
   },
   {
     "vol": 3,
     "release": "200X年",
-    "image": "images/vol3.jpg"
+    "image": "images/vol03.jpg"
   }
 ]
