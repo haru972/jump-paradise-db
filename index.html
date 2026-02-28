@@ -49,11 +49,13 @@ fetch("data/volumes.json")
       const card = document.createElement("div");
       card.className = "card";
 
-      card.innerHTML = `
+    card.innerHTML = `
+      <a href="detail.html?vol=${item.vol}" style="text-decoration:none;color:black;">
         <img src="${item.image}">
         <h3>Vol.${item.vol}</h3>
         <p>発売日：${item.release}</p>
-      `;
+      </a>
+    `;
 
       container.appendChild(card);
     });
