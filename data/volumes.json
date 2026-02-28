@@ -4,7 +4,7 @@
     "series": "ジャンプパラダイス",
     "vol": 1,
     "release": "200X年",
-    "image": "images/vol1.jpg",
+    "image": "images/vol01.jpg",
     "cover": "キャラ名",
     "features": ["特集A", "特集B"],
     "notes": "制服姿あり"
@@ -14,7 +14,7 @@
     "series": "ジャンプパラダイス",
     "vol": 2,
     "release": "200X年",
-    "image": "images/vol2.jpg",
+    "image": "images/vol02.jpg",
     "cover": "キャラ名",
     "features": ["特集C"],
     "notes": ""
@@ -24,7 +24,7 @@
     "series": "ジャンコミScoop!!",
     "vol": 1,
     "release": "20XX年",
-    "image": "images/vol3.jpg",
+    "image": "images/vol03.jpg",
     "cover": "キャラ名",
     "features": ["新シリーズ特集"],
     "notes": ""
