@@ -2,16 +2,17 @@
   {
     "vol": 1,
     "release": "200X年",
-    "image": "images/vol01.jpg"
+    "image": "images/vol1.jpg",
+    "cover": "キャラ名",
+    "features": ["特集A", "特集B"],
+    "notes": "制服姿あり"
   },
   {
     "vol": 2,
     "release": "200X年",
-    "image": "images/vol02.jpg"
-  },
-  {
-    "vol": 3,
-    "release": "200X年",
-    "image": "images/vol03.jpg"
+    "image": "images/vol2.jpg",
+    "cover": "キャラ名",
+    "features": ["特集C"],
+    "notes": ""
   }
 ]
