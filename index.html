@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Jump Paradise Index</title>
+
 <style>
 body {
   font-family: Arial, sans-serif;
@@ -15,6 +16,7 @@ body {
   justify-content: center;
   gap: 20px;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -27,12 +29,7 @@ body {
 
 .card img {
   width: 100%;
-  height: auto;
   border-radius: 5px;
-}
-
-.card h3 {
-  margin: 10px 0 5px 0;
 }
 </style>
 </head>
@@ -40,28 +37,28 @@ body {
 <body>
 
 <h1>Jump Paradise Index</h1>
+<div class="container" id="card-container"></div>
 
-<div class="container">
+<script>
+fetch("data/volumes.json")
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById("card-container");
 
-  <div class="card">
-    <img src="images/vol01.jpg" alt="Vol1 Cover">
-    <h3>Vol.1</h3>
-    <p>発売日：200X年</p>
-  </div>
+    data.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
 
-  <div class="card">
-    <img src="images/vol02.jpg" alt="Vol2 Cover">
-    <h3>Vol.2</h3>
-    <p>発売日：200X年</p>
-  </div>
+      card.innerHTML = `
+        <img src="${item.image}">
+        <h3>Vol.${item.vol}</h3>
+        <p>発売日：${item.release}</p>
+      `;
 
-  <div class="card">
-    <img src="images/vol03.jpg" alt="Vol3 Cover">
-    <h3>Vol.3</h3>
-    <p>発売日：200X年</p>
-  </div>
-
-</div>
+      container.appendChild(card);
+    });
+  });
+</script>
 
 </body>
 </html>
