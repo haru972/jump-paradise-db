@@ -1,32 +1,45 @@
 [
   {
     "id": "jp-001",
-    "series": "ジャンプパラダイス",
-    "vol": 1,
-    "release": "200X年",
-    "image": "images/vol01.jpg",
-    "cover": "キャラ名",
+    "vol": "01",
+    "series": "Jump Paradise",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
     "features": ["特集A", "特集B"],
-    "notes": "制服姿あり"
+    "notes": "備考など",
+    "images": [
+      "images/vol01-thumb.jpg",
+      "images/vol01-1.jpg",
+      "images/vol01-2.jpg",
+      "images/vol01-3.jpg"
+    ]
   },
   {
     "id": "jp-002",
-    "series": "ジャンプパラダイス",
-    "vol": 2,
-    "release": "200X年",
-    "image": "images/vol02.jpg",
-    "cover": "キャラ名",
+    "vol": "02",
+    "series": "Jump Paradise",
+    "release": "2005-02-15",
+    "cover": "表紙タイトル2",
     "features": ["特集C"],
-    "notes": ""
+    "notes": "備考2",
+    "images": [
+      "images/vol02-thumb.jpg",
+      "images/vol02-1.jpg",
+      "images/vol02-2.jpg"
+    ]
   },
   {
     "id": "js-001",
+    "vol": "01",
     "series": "ジャンコミScoop!!",
-    "vol": 1,
-    "release": "20XX年",
-    "image": "images/vol03.jpg",
-    "cover": "キャラ名",
-    "features": ["新シリーズ特集"],
-    "notes": ""
+    "release": "2005-02-15",
+    "cover": "表紙タイトル3",
+    "features": ["特集C"],
+    "notes": "備考3",
+    "images": [
+      "images/vol03-thumb.jpg",
+      "images/vol03-1.jpg",
+      "images/vol03-2.jpg"
+    ]
   }
 ]

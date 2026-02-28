@@ -1,0 +1,114 @@
+/* ============================= */
+/* 共通ヘッダー・サイトタイトル */
+/* ============================= */
+header {
+  background-color: #f8f8f8; /* 淡いグレー背景 */
+  padding: 20px 40px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* サイトタイトル */
+header h1 {
+  font-family: 'Yu Gothic', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: #111;
+}
+
+/* リンクっぽく見せないスタイル（詳細ページ用） */
+.no-link-style {
+  text-decoration: none; /* 下線消す */
+  color: inherit;        /* ヘッダーの文字色を継承 */
+  cursor: pointer;       /* マウスオーバーでクリック可能と分かる */
+}
+
+.no-link-style:hover {
+  text-decoration: underline; /* ホバーで軽く下線 */
+  color: #222;                 /* 色を少し濃くして強調 */
+}
+
+/* ============================= */
+/* メインコンテンツ（カードコンテナ） */
+/* ============================= */
+#content, #detail {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Yu Gothic', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ============================= */
+/* 横並びカード対応 */
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.item {
+  flex: 0 1 calc(25% - 20px); /* 1行に4枚 */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-2px);
+}
+
+/* 画像整形 */
+.item img, .detail-box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+/* タイトル・説明 */
+.item h3, .item h2, .detail-box h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.item p, .detail-box p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* ============================= */
+/* 詳細ページカード */
+.detail-box {
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+/* ============================= */
+/* レスポンシブ対応 */
+@media screen and (max-width: 1000px) {
+  .item { flex: 0 1 calc(33.33% - 20px); } /* 3列 */
+}
+
+@media screen and (max-width: 700px) {
+  .item { flex: 0 1 calc(50% - 20px); } /* 2列 */
+}
+
+@media screen and (max-width: 500px) {
+  .item { flex: 0 1 100%; } /* 1列 */
+}

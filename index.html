@@ -1,81 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>Jump Paradise Index</title>
+<title>ジャンパラ！アーカイブ</title>
+<link rel="stylesheet" href="style.css">
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: white;
-  padding: 15px;
-  width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.card img {
-  width: 100%;
-  border-radius: 5px;
-}
-</style>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T24E4300YQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-T24E4300YQ');
+</script>
 </head>
-
 <body>
 
-<h1>Jump Paradise Index</h1>
-<div class="container" id="card-container"></div>
+<header>
+  <h1><a href="index.html" class="no-link-style">ジャンパラ！アーカイブ</a></h1>
+</header>
+
+<div id="content"></div>
 
 <script>
 fetch("data/volumes.json")
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
-    const container = document.getElementById("card-container");
+    const container = document.getElementById("content");
 
     data.forEach(item => {
       const card = document.createElement("div");
-      card.className = "card";
+      card.className = "item";
 
-    card.innerHTML = `
-      <a href="detail.html?vol=${item.vol}" style="text-decoration:none;color:black;">
-        <img src="${item.image}">
-        <h3>${item.series} Vol.${item.vol}</h3>
-        <p>発売日：${item.release}</p>
-      </a>
-    `;
+      // id指定でリンク
+      card.innerHTML = `
+        <a href="detail.html?id=${item.id}" class="no-link-style">
+          <img src="${item.images[0]}" alt="${item.series} Vol.${item.vol}"> <!-- サムネイル -->
+          <h3>${item.series} Vol.${item.vol}</h3>
+          <!-- <p>発売日：${item.release}</p> -->
+        </a>
+      `;
 
       container.appendChild(card);
     });
   });
 </script>
+
 <hr>
+<h2>未所持号の情報提供のお願い</h2>
+<p>下記メールアドレスまでご連絡ください。</p>
+<p>仮置き★gmail.com</p>
+<p style="font-size:0.9em;color:gray;">※「★」を「@」に変更して送信してください。</p>
 
-<h2>情報提供のお願い</h2>
-
-<p>
-未所持号の情報や誤りの修正などがありましたら、
-下記メールアドレスまでご連絡ください。
-</p>
-
-<p>
-仮置き★gmail.com
-</p>
-
-<p style="font-size: 0.9em; color: gray;">
-※「★」を「@」に変更して送信してください。
-</p>
 </body>
 </html>

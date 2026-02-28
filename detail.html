@@ -1,35 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>Vol Detail</title>
-<style>
-body { font-family: Arial; padding: 30px; }
-img { width: 300px; }
-</style>
+<title>ジャンパラ！アーカイブ – 詳細</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T24E4300YQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-T24E4300YQ');
+</script>
 </head>
 <body>
+
+<header>
+  <h1><a href="index.html" class="no-link-style">ジャンパラ！アーカイブ</a></h1>
+</header>
 
 <div id="detail"></div>
 
 <script>
 const params = new URLSearchParams(window.location.search);
-const volNumber = params.get("vol");
+const id = params.get("id");
 
 fetch("data/volumes.json")
   .then(res => res.json())
   .then(data => {
-    const volume = data.find(v => v.vol == volNumber);
+    const volume = data.find(v => v.id === id);
     const container = document.getElementById("detail");
 
     if(volume){
+      let imgsHtml = "";
+      if(volume.images && volume.images.length > 0){
+        volume.images.forEach(src => {
+          imgsHtml += `<img src="${src}" alt="${volume.series} Vol.${volume.vol}">`;
+        });
+      }
+
       container.innerHTML = `
-        <h1>${volume.series} Vol.${volume.vol}</h1>
-        <img src="${volume.image}">
-        <p>発売日：${volume.release}</p>
-        <p>表紙：${volume.cover}</p>
-        <p>特集：${volume.features.join(", ")}</p>
-        <p>備考：${volume.notes}</p>
+        <div class="detail-box">
+          <h2>${volume.series} Vol.${volume.vol}</h2>
+          ${imgsHtml}  <!-- 複数画像 -->
+          <!-- <p>発売日：${volume.release}</p> -->
+          <!-- <p>表紙：${volume.cover}</p> -->
+          <!-- <p>特集：${volume.features ? volume.features.join(", ") : "なし"}</p> -->
+          <p>備考：${volume.notes}</p>
+        </div>
       `;
     } else {
       container.innerHTML = "<p>該当データなし</p>";
