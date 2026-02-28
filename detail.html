@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vol Detail</title>
+<style>
+body { font-family: Arial; padding: 30px; }
+img { width: 300px; }
+</style>
+</head>
+<body>
+
+<div id="detail"></div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const volNumber = params.get("vol");
+
+fetch("data/volumes.json")
+  .then(res => res.json())
+  .then(data => {
+    const volume = data.find(v => v.vol == volNumber);
+    const container = document.getElementById("detail");
+
+    if(volume){
+      container.innerHTML = `
+        <h1>Vol.${volume.vol}</h1>
+        <img src="${volume.image}">
+        <p>発売日：${volume.release}</p>
+        <p>表紙：${volume.cover}</p>
+        <p>特集：${volume.features.join(", ")}</p>
+        <p>備考：${volume.notes}</p>
+      `;
+    } else {
+      container.innerHTML = "<p>該当データなし</p>";
+    }
+  });
+</script>
+
+</body>
+</html>
