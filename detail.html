@@ -24,7 +24,7 @@ fetch("data/volumes.json")
 
     if(volume){
       container.innerHTML = `
-        <h1>Vol.${volume.vol}</h1>
+        <h1>${volume.series} Vol.${volume.vol}</h1>
         <img src="${volume.image}">
         <p>発売日：${volume.release}</p>
         <p>表紙：${volume.cover}</p>
