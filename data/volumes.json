@@ -1,45 +1,50 @@
 [
   {
     "id": "jp-001",
-    "vol": "01",
-    "series": "Jump Paradise",
+    "vol": "001",
+    "series": "JUMP PARADISE",
     "release": "2005-01-15",
     "cover": "表紙タイトル",
     "features": ["特集A", "特集B"],
-    "notes": "備考など",
+    "notes": "無し",
     "images": [
-      "images/vol01-thumb.jpg",
-      "images/vol01-1.jpg",
-      "images/vol01-2.jpg",
-      "images/vol01-3.jpg"
+      "images/jp-001-00.jpg",
+      "images/jp-001-01.jpg",
+      "images/jp-001-02.jpg",
+      "images/jp-001-03.jpg",
+      "images/jp-001-04.jpg"
     ]
   },
   {
-    "id": "jp-002",
-    "vol": "02",
-    "series": "Jump Paradise",
-    "release": "2005-02-15",
-    "cover": "表紙タイトル2",
-    "features": ["特集C"],
-    "notes": "備考2",
+    "id": "jp-110",
+    "vol": "110",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
     "images": [
-      "images/vol02-thumb.jpg",
-      "images/vol02-1.jpg",
-      "images/vol02-2.jpg"
+      "images/jp-110-00.jpg",
+      "images/jp-110-01.jpg",
+      "images/jp-110-02.jpg",
+      "images/jp-110-03.jpg",
+      "images/jp-110-04.jpg"
     ]
   },
   {
     "id": "js-001",
-    "vol": "01",
+    "vol": "001",
     "series": "ジャンコミScoop!!",
-    "release": "2005-02-15",
-    "cover": "表紙タイトル3",
-    "features": ["特集C"],
-    "notes": "備考3",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
     "images": [
-      "images/vol03-thumb.jpg",
-      "images/vol03-1.jpg",
-      "images/vol03-2.jpg"
+      "images/js-001-00.jpg",
+      "images/js-001-01.jpg",
+      "images/js-001-02.jpg",
+      "images/js-001-03.jpg",
+      "images/js-001-04.jpg"
     ]
   }
 ]
