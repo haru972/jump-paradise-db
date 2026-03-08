@@ -1,18 +1,84 @@
 [
   {
-    "id": "jp-001",
-    "vol": "001",
+    "id": "jp-018",
+    "vol": "018",
     "series": "JUMP PARADISE",
     "release": "2005-01-15",
     "cover": "表紙タイトル",
     "features": ["特集A", "特集B"],
     "notes": "無し",
     "images": [
-      "images/jp-001-00.jpg",
-      "images/jp-001-01.jpg",
-      "images/jp-001-02.jpg",
-      "images/jp-001-03.jpg",
-      "images/jp-001-04.jpg"
+      "images/jp-018-00.jpg",
+      "images/jp-018-01.jpg",
+      "images/jp-018-02.jpg",
+      "images/jp-018-03.jpg",
+      "images/jp-018-04.jpg"
+    ]
+  },
+  {
+    "id": "jp-036",
+    "vol": "036",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/jp-036-00.jpg",
+      "images/jp-036-01.jpg",
+      "images/jp-036-02.jpg",
+      "images/jp-036-03.jpg",
+      "images/jp-036-04.jpg"
+    ]
+  },
+  {
+    "id": "jp-087",
+    "vol": "087",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/jp-087-00.jpg",
+      "images/jp-087-01.jpg",
+      "images/jp-087-02.jpg",
+      "images/jp-087-03.jpg",
+      "images/jp-087-04.jpg"
+    ]
+  },
+  {
+    "id": "jp-093",
+    "vol": "093",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/jp-093-00.jpg",
+      "images/jp-093-01.jpg",
+      "images/jp-093-02.jpg",
+      "images/jp-093-03.jpg",
+      "images/jp-093-04.jpg"
+    ]
+  },
+  {
+    "id": "jp-097",
+    "vol": "097",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/jp-097-00.jpg",
+      "images/jp-097-01.jpg",
+      "images/jp-097-02.jpg",
+      "images/jp-097-03.jpg",
+      "images/jp-097-05.jpg",
+      "images/jp-097-06.jpg",
+      "images/jp-097-04.jpg"
     ]
   },
   {
@@ -32,19 +98,291 @@
     ]
   },
   {
-    "id": "js-001",
-    "vol": "001",
+    "id": "jp-123",
+    "vol": "123",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/jp-123-00.jpg",
+      "images/jp-123-01.jpg",
+      "images/jp-123-02.jpg",
+      "images/jp-123-03.jpg",
+      "images/jp-123-04.jpg"
+    ]
+  },
+  {
+    "id": "jp-128",
+    "vol": "128",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/jp-128-00.jpg",
+      "images/jp-128-01.jpg",
+      "images/jp-128-02.jpg",
+      "images/jp-128-03.jpg",
+      "images/jp-128-04.jpg"
+    ]
+  },
+  {
+    "id": "jp-137",
+    "vol": "137",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/jp-137-00.jpg",
+      "images/jp-137-01.jpg",
+      "images/jp-137-02.jpg",
+      "images/jp-137-03.jpg",
+      "images/jp-137-04.jpg"
+    ]
+  },
+  {
+    "id": "jp-140",
+    "vol": "140",
+    "series": "JUMP PARADISE",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/jp-140-00.jpg",
+      "images/jp-140-01.jpg",
+      "images/jp-140-02.jpg",
+      "images/jp-140-03.jpg",
+      "images/jp-140-04.jpg"
+    ]
+  },
+  {
+    "id": "js-020",
+    "vol": "020",
     "series": "ジャンコミScoop!!",
     "release": "2005-01-15",
     "cover": "表紙タイトル",
     "features": ["特集A", "特集B"],
     "notes": "無し",
     "images": [
-      "images/js-001-00.jpg",
-      "images/js-001-01.jpg",
-      "images/js-001-02.jpg",
-      "images/js-001-03.jpg",
-      "images/js-001-04.jpg"
+      "images/js-020-00.jpg",
+      "images/js-020-01.jpg",
+      "images/js-020-02.jpg",
+      "images/js-020-03.jpg",
+      "images/js-020-04.jpg"
+    ]
+  },
+  {
+    "id": "js-024",
+    "vol": "024",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-024-00.jpg",
+      "images/js-024-01.jpg",
+      "images/js-024-02.jpg",
+      "images/js-024-03.jpg",
+      "images/js-024-04.jpg"
+    ]
+  },
+  {
+    "id": "js-027",
+    "vol": "027",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-027-00.jpg",
+      "images/js-027-01.jpg",
+      "images/js-027-02.jpg",
+      "images/js-027-03.jpg",
+      "images/js-027-04.jpg"
+    ]
+  },
+  {
+    "id": "js-030",
+    "vol": "030",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-030-00.jpg",
+      "images/js-030-01.jpg",
+      "images/js-030-02.jpg",
+      "images/js-030-03.jpg",
+      "images/js-030-04.jpg"
+    ]
+  },
+  {
+    "id": "js-034",
+    "vol": "034",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-034-00.jpg",
+      "images/js-034-01.jpg",
+      "images/js-034-02.jpg",
+      "images/js-034-03.jpg",
+      "images/js-034-04.jpg"
+    ]
+  },
+  {
+    "id": "js-038",
+    "vol": "038",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-038-00.jpg",
+      "images/js-038-01.jpg",
+      "images/js-038-02.jpg",
+      "images/js-038-03.jpg",
+      "images/js-038-04.jpg"
+    ]
+  },
+  {
+    "id": "js-041",
+    "vol": "041",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-041-00.jpg",
+      "images/js-041-01.jpg",
+      "images/js-041-02.jpg",
+      "images/js-041-03.jpg",
+      "images/js-041-04.jpg"
+    ]
+  },
+  {
+    "id": "js-045",
+    "vol": "045",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-045-00.jpg",
+      "images/js-045-01.jpg",
+      "images/js-045-02.jpg",
+      "images/js-045-03.jpg",
+      "images/js-045-04.jpg"
+    ]
+  },
+  {
+    "id": "js-048",
+    "vol": "048",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-048-00.jpg",
+      "images/js-048-01.jpg",
+      "images/js-048-02.jpg",
+      "images/js-048-03.jpg",
+      "images/js-048-04.jpg"
+    ]
+  },
+  {
+    "id": "js-051",
+    "vol": "051",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-051-00.jpg",
+      "images/js-051-01.jpg",
+      "images/js-051-02.jpg",
+      "images/js-051-03.jpg",
+      "images/js-051-04.jpg"
+    ]
+  },
+  {
+    "id": "js-054",
+    "vol": "054",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-054-00.jpg",
+      "images/js-054-01.jpg",
+      "images/js-054-02.jpg",
+      "images/js-054-03.jpg",
+      "images/js-054-04.jpg"
+    ]
+  },
+  {
+    "id": "js-057",
+    "vol": "057",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-057-00.jpg",
+      "images/js-057-01.jpg",
+      "images/js-057-02.jpg",
+      "images/js-057-03.jpg",
+      "images/js-057-04.jpg"
+    ]
+  },
+  {
+    "id": "js-060",
+    "vol": "060",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-060-00.jpg",
+      "images/js-060-01.jpg",
+      "images/js-060-02.jpg",
+      "images/js-060-03.jpg",
+      "images/js-060-04.jpg"
+    ]
+  },
+  {
+    "id": "js-062",
+    "vol": "062",
+    "series": "ジャンコミScoop!!",
+    "release": "2005-01-15",
+    "cover": "表紙タイトル",
+    "features": ["特集A", "特集B"],
+    "notes": "無し",
+    "images": [
+      "images/js-062-00.jpg",
+      "images/js-062-01.jpg",
+      "images/js-062-02.jpg",
+      "images/js-062-03.jpg",
+      "images/js-062-04.jpg"
     ]
   }
 ]
